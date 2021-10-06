@@ -19,7 +19,6 @@ def new_flatten(lst):
 
 
 # Add up numbers until the sum becomes greater than 10
-
 data = [1, [-2, [[[4]]], [0, 5], [], 3], [4], 2, 7]
 sum = 0
 while True:
