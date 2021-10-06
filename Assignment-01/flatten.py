@@ -25,8 +25,9 @@ while True:
   e = new_flatten(data)
   if e == None:
     break
-  print(e)
+  print(e, end=' ')
   sum += e
   if sum > 10:
-    break 
+    print()
+    break
 print('Result:', sum)
