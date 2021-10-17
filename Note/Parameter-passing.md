@@ -21,5 +21,5 @@
 
 <img width="700" alt="스크린샷 2021-10-17 오후 3 18 48" src="https://user-images.githubusercontent.com/39653584/137614239-ba8d2401-a10e-451d-ad93-472d35c28488.png">
 
-## Pass-by-Name (Inout Mode) => (Paa-by-Function)
+## Pass-by-Name (Inout Mode) => (Pass-by-Function)
 <img width="700" alt="스크린샷 2021-10-17 오후 3 28 46" src="https://user-images.githubusercontent.com/39653584/137614458-269b8aa0-2ddc-4b4a-90b5-75c11de6ce6e.png">
