@@ -39,34 +39,34 @@ void pbn(int *xIndex, int *yIndex, int *arr) {
 
 main() {
   // 0. Pass-by-Value (Sample Example)
-  // ¿¿ ¿¿: 1 1
+  // ì¶œë ¥ ê²°ê³¼: 1 1
   printf("0.Pass-by-Value\n");
   p(a[i], a[i]);
   printf("%d %d\n\n", a[0], a[1]);
 
   // 1. Pass-by-Reference
-  // ¿¿ ¿¿: 3 1
+  // ì¶œë ¥ ê²°ê³¼: 3 1
   init();
   printf("1.Pass-by-Reference\n");
   pbr(&a[i], &a[i]);
   printf("%d %d\n\n", a[0], a[1]);
 
   // 2. Pass-by-value-result (call)
-  // ¿¿ ¿¿: 2 1
+  // ì¶œë ¥ ê²°ê³¼: 2 1
   init();
   printf("2.Pass-by-value-result (call)\n");
   pbvr_c(a[i], a[i], &a[i], &a[i]);
   printf("%d %d\n\n", a[0], a[1]);
 
   // 3. Pass-by-value-result (return)
-  // ¿¿ ¿¿: 1 2
+  // ì¶œë ¥ ê²°ê³¼: 1 2
   init();
   printf("3.Pass-by-value-result (return)\n");
   pbvr_r(a[i], a[i], &i, &i, a);
   printf("%d %d\n\n", a[0], a[1]);
 
   // 4. Pass-by-name
-  // ¿¿¿¿: 2 2
+  // ì¶œë ¥ ê²°ê³¼: 2 2
   init();
   printf("4.Pass-by-name\n");
   pbn(&i, &i, a);
